@@ -10,7 +10,7 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-
+//Se ve el usuario y la contraseña de la base de datos
 mongoose.connect('mongodb://zantler:Masita007@ds121464.mlab.com:21464/project_2');
 var db = mongoose.connection;
 
